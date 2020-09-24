@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>main.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6897bb;}
+.s3 { color: #6a8759;}
+.s4 { color: #cc7832;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+main.py</font>
+</center></td></tr></table>
+<pre><span class="s0">#sum of 3 numbers</span>
+<span class="s1">num1 = </span><span class="s2">1</span>
+<span class="s1">num2 = </span><span class="s2">2</span>
+<span class="s1">num3 = </span><span class="s2">3</span>
+<span class="s1">sum = num1 + num2 + num3</span>
+<span class="s1">print(</span><span class="s3">&quot;The sum is&quot;</span><span class="s4">, </span><span class="s1">sum)</span>
+
+<span class="s0">#volume of a cuboid</span>
+<span class="s1">l = </span><span class="s2">10</span>
+<span class="s1">b = </span><span class="s2">12</span>
+<span class="s1">h = </span><span class="s2">15</span>
+<span class="s1">vol = l * b * h</span>
+<span class="s1">print(</span><span class="s3">&quot;The volume of rectangle is&quot;</span><span class="s4">, </span><span class="s1">vol)</span>
+
+<span class="s0">#liquid pressure</span>
+<span class="s1">depth = </span><span class="s2">50</span>
+<span class="s1">density = </span><span class="s2">10</span>
+<span class="s1">g = </span><span class="s2">9.8</span>
+<span class="s1">pressure = depth * density * g</span>
+<span class="s1">print(</span><span class="s3">&quot;The pressure of the liquid is&quot;</span><span class="s4">, </span><span class="s1">pressure)</span>
+
+<span class="s4">import </span><span class="s1">math</span>
+
+<span class="s0">#compound interest</span>
+<span class="s1">p = </span><span class="s2">3500</span>
+<span class="s1">t = </span><span class="s2">2.5</span>
+<span class="s1">r = </span><span class="s2">3.15</span>
+<span class="s1">CI = p*[((</span><span class="s2">1</span><span class="s1">+(r/</span><span class="s2">100</span><span class="s1">))**t)-</span><span class="s2">1</span><span class="s1">]</span>
+<span class="s1">print(</span><span class="s3">&quot;The Compound Interest is&quot;</span><span class="s4">, </span><span class="s1">CI)</span>
+<span class="s0">#print(&quot;The ceiling value is: &quot;, round(CI))</span>
+<span class="s0">#print(&quot;The ceiling value is: &quot;, math.ceil(CI))</span>
+<span class="s0">#print(&quot;The floor value is: &quot;, math.floor(CI))</span>
+
+<span class="s0">#absolute value</span>
+<span class="s1">num4 = </span><span class="s2">2</span>
+<span class="s1">num5 = </span><span class="s2">6</span>
+<span class="s1">num6 = </span><span class="s2">3</span>
+<span class="s1">Diff = num4 - num5 - num6</span>
+<span class="s1">print(</span><span class="s3">&quot;The positive result of the difference of 3 numbers is&quot;</span><span class="s4">, </span><span class="s1">abs(Diff))</span>
+
+<span class="s1">date = </span><span class="s2">2020</span>
+<span class="s1">print(</span><span class="s3">&quot;Input your birth year:&quot;</span><span class="s1">)</span>
+<span class="s1">DOB = input()</span>
+<span class="s1">age = date - int(DOB)</span>
+<span class="s1">print(</span><span class="s3">&quot;Your age is&quot;</span><span class="s4">, </span><span class="s1">age)</span>
+
+<span class="s0">#kmph to mph</span>
+<span class="s1">kmph = input(</span><span class="s3">&quot;Enter Kmph:&quot;</span><span class="s1">)</span>
+<span class="s1">mph = float(kmph) * </span><span class="s2">1000</span>
+<span class="s1">print(</span><span class="s3">&quot;value of kmph in mph is: &quot;</span><span class="s4">, </span><span class="s1">round(mph))</span>
+
+<span class="s1">celsius = input(</span><span class="s3">&quot;Enter value in celsius:&quot;</span><span class="s1">)</span>
+<span class="s1">kelvin = float(celsius) +  </span><span class="s2">273.15</span>
+<span class="s1">print(</span><span class="s3">&quot;value of given celsius in kelvin is: &quot;</span><span class="s4">, </span><span class="s1">kelvin)</span>
+
+
+
+
+</pre>
+</body>
+</html>
